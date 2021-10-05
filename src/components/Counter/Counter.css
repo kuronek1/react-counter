@@ -1,0 +1,35 @@
+* {
+    text-align: center;
+}
+.counter, .CounterForm {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.CounterForm {
+    flex-direction: column;
+    padding: 5px 40px;
+}
+
+.CounterForm input {
+    font-size: 20px;
+}
+
+.scoreBoard, .timerDisplay{
+    padding: 0 20px;
+    margin: 0 10px;
+    background-color: white;
+    border: 3px solid black;
+}
+
+.timerDisplay {
+    margin: 0 100px;
+}
+
+.btnActive{
+    pointer-events: none;
+}
+.btnDissable{
+    pointer-events: all;
+}

@@ -14,6 +14,10 @@ class Counter extends Component {
         };
     }
 
+    /* 
+        
+    */
+
     PlusValue = () => {
         this.setState((prevState) => ({
             counterValue: prevState.counterValue + Number(this.state.step),
@@ -41,7 +45,7 @@ class Counter extends Component {
             step: this.state.value,
         }));
         event.preventDefault();
-        console.log(this.state.step);
+        //console.log(this.state.step);
     };
 
     AutoClick = () => {
@@ -62,7 +66,7 @@ class Counter extends Component {
         this.setState(prevState =>({
             active: !prevState.active,
         }))
-        console.log(this.state.active);
+        //console.log(this.state.active);
     }
 
     ButtonOnClick = () =>{
